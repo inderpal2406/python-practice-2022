@@ -1,0 +1,3 @@
+# Files or directories to be excluded from the source control.
+
+__pycache__/
