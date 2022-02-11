@@ -24,5 +24,5 @@ if num > 17:
     double_difference = 2*(num-17)
     print(f"\nAs the number {num} is greater than 17, the double of the difference is {double_difference}.\n")
 else:
-    difference = 17-num
-    print(f"\nDifference between 17 and the {num} is {difference}.\n")
+    difference = num-17
+    print(f"\nDifference between 17 and the {num} is {abs(difference)}.\n")
