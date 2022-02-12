@@ -5,5 +5,5 @@
 
 def check_input(value):
     if type(value) is bool:
-        print(f"The provided the input {value} is a boolean value, which is not expected. Hence, exiting script now!")
+        print(f"The provided input {value} is a boolean value, which is not expected. Hence, exiting script now!")
         exit(1)
