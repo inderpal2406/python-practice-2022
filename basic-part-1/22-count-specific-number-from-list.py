@@ -30,6 +30,6 @@ num = eval(input("Enter the number: "))
 
 if num in our_list:
     count = our_list.count(num)
-    print(f"\nThe number {num} exists {count} number of times.\n")
+    print(f"\nThe number {num} exists {count} number of times in the list.\n")
 else:
-    print(f"\nThe number {num} doesn't exist in the script.\n")
+    print(f"\nThe number {num} doesn't exist in the list.\n")
