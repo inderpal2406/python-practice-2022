@@ -16,6 +16,7 @@ def main():
     os_release = platform.release()
     print(f"The OS name is: {os_name}")
     print(f"The OS release is: {os_release}\n")
+    return None
 
 # Main code starts here.
 
