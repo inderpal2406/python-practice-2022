@@ -37,8 +37,9 @@ def main():
     except ValueError:
         print("This script accepts only integer value for n. Exiting script!")
         sys.exit(1)
+    n = abs(n)  # Converting n to positive value if negative value given.
     our_sum = sum_of_n_odd(n)
-    print(f"\nThe sum of first n odd numbers is: {our_sum}\n")
+    print(f"\nThe sum of first {n} odd numbers is: {our_sum}\n")
     return None
 
 # Call main function if this script is executed.
