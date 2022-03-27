@@ -11,7 +11,7 @@ import clear_screen_module
 # Define functions.
 
 def sum_of_odd_nums_upto_n(i):
-    """Sum of odd nums upto n"""
+    """Function for sum of odd nums upto n"""
     num = 1
     ans = 0
     while num <= i:
