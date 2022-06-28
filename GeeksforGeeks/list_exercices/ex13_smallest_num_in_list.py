@@ -27,8 +27,11 @@ def main():
     clear_screen_module.clear_screen()
     print("This script accepts integers and displays the smallest one in them.\n")
     intlist = acceptlist()
-    intlist.sort()
-    print(f"The smallest integer is: {intlist[0]}")
+    if bool(intlist):
+        intlist.sort()
+        print(f"The smallest integer is: {intlist[0]}\n")
+    else:
+        print("Smallest integer cannot be found if no input is provided.\n")
 
 # Call main() if the script is executed.
 
