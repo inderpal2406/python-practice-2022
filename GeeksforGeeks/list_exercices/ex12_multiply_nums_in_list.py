@@ -7,6 +7,13 @@ import clear_screen_module
 
 # Define functions.
 
+def calproduct(numlist):
+    """Function to calculate product of nums in list"""
+    multiplyresult = 1
+    for eachnum in numlist:
+        multiplyresult = multiplyresult*eachnum
+    return multiplyresult
+
 def main():
     """First function to be called"""
     clear_screen_module.clear_screen()
@@ -22,9 +29,7 @@ def main():
     except ValueError:
         print("Please enter an integer only. Exiting script now!")
         sys.exit(1)
-    product = 1
-    for eachint in intlist:
-        product = product*eachint
+    product = calproduct(intlist)
     print(f"The product of entered integers is: {product}")
 
 # Call main() if the script is executed.
