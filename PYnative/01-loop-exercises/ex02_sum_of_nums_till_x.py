@@ -24,7 +24,7 @@ def main():
         print("Please enter an integer number only. Exiting script now.\n")
         sys.exit(1)
     if num < 0:
-        print("Number cannot be less than 0. Exiting script now.\n")
+        print("Please enter number greater than 0. Exiting script now.\n")
         sys.exit(1)
     oursum = CalculateSumOfNumsUptoX(num)
     print(f"The sum of all numbers upto number {num} is: {oursum}\n")
