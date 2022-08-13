@@ -27,7 +27,7 @@ def main():
     clear_screen_module.clear_screen()
     print("""
     This script calculates sum of series upto n terms.
-    If num=2 & n=5, then sum is calculates in below format,
+    If num=2 & n=5, then sum is calculated in below format,
     sum = 2 + 22 + 222 + 2222 + 22222
     """)
     try:
